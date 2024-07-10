@@ -1,0 +1,85 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="*"
+    tools:context=".MainActivity" >
+
+    <TableRow>
+        <LinearLayout android:orientation="horizontal"
+            android:layout_span="5">
+         <EditText 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNumero1"
+            android:inputType="text"
+            android:textColor="#000000"/>  
+        </LinearLayout>
+    </TableRow>
+    
+    <TableRow >
+        <Button android:id="@+id/bt1"
+            android:text="@string/bt1"
+            />
+        <Button android:id="@+id/bt2"
+            android:text="@string/bt2"
+            />
+        <Button android:id="@+id/bt3"
+            android:text="@string/bt3"
+            />
+        <Button android:id="@+id/bt4"
+            android:text="@string/bt4"
+            />
+        <Button android:id="@+id/bt5"
+            android:text="@string/bt5"
+            />
+    </TableRow>
+    <TableRow >
+        <Button android:id="@+id/bt6"
+            android:text="@string/bt6"
+            />
+        <Button android:id="@+id/bt7"
+            android:text="@string/bt7"
+            />
+        <Button android:id="@+id/bt8"
+            android:text="@string/bt8"
+            />
+        <Button android:id="@+id/bt9"
+            android:text="@string/bt9"
+            />
+        <Button android:id="@+id/bt0"
+            android:text="@string/bt0"
+            />
+    </TableRow>
+     <TableRow >
+        <Button android:id="@+id/btmas"
+            android:text="@string/btmas"
+            />
+        <Button android:id="@+id/btmenos"
+            android:text="@string/btmenos"
+            />
+        <Button android:id="@+id/btpor"
+            android:text="@string/btpor"
+            />
+        <Button android:id="@+id/btentre"
+            android:text="@string/btentre"
+            />
+        <Button android:id="@+id/btigual"
+            android:text="@string/btigual"
+            />
+    </TableRow>
+         <TableRow >
+        <Button android:id="@+id/btpunto"
+            android:text="@string/btpunto"
+            />
+        <Button android:id="@+id/btC"
+            android:text="@string/btC"
+            />
+
+    </TableRow>
+
+</TableLayout>

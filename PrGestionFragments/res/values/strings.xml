@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrGestionFragments</string>
+    <string name="btCambiaFragment">Cambiar Fragment</string>
+    <string name="tvExplicacion">Pulsa varias veces el boton \'Cambia Fragment\'.\nDespues pulsa atras.</string>
+
+</resources>

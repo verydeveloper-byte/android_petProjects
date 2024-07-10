@@ -1,0 +1,104 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:stretchColumns="1"
+    tools:context=".MainActivity" >
+    <!-- TableLayout tabula los datos en una tabla.
+    Podemos indicar la columna que se va a expandir más en strechColumns 
+    (empieza desde la columna 0) -->
+    
+	<!-- Cada fila es un TableRow.
+	En las dos primeras filas vamos a introducir los dos números con los que realizar las operaciones -->
+	
+	<!-- Fila1 -->
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número 1: " />
+     <!-- Al campo de texto editable le aplicamos un identificador
+     para llamarlo luego desde java -->   
+        <EditText android:id="@+id/etNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"  
+        android:text=""  
+            />
+    </TableRow>
+    <!-- Fin de la fila. Cerramos la etiqueta TableRow -->
+    <!-- Fila2 -->
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Número 2: " />
+      <!-- En la propiedad inpuType le indicamos que sólo se pueden introducir números -->      
+        <EditText android:id="@+id/etNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"  
+        android:text=""  
+            />
+    </TableRow>
+    <!-- Fila3 -->
+    <!-- En esta fila mostramos el resultado -->  
+    <TableRow>
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado: " />
+          
+        <EditText android:id="@+id/etRes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"  
+        android:text=""  
+            />
+    </TableRow>
+    
+    <!-- Fila4 -->
+    <!-- En esta fila incluimos los botones, dentro de un LinearLayout:  -->  
+    <!-- La propiedad android:gravity va a centrar la capa de los botones:  -->  
+    <!-- La propiedad android:layout_span une las dos columnas de la tabla:  --> 
+    <TableRow>
+    	<LinearLayout android:orientation="horizontal"
+    	    android:layout_span="5"
+    	    android:layout_gravity="center">
+    	    <Button android:id="@+id/btSumar"
+    	    android:layout_width="wrap_content"    
+    	    android:layout_height="wrap_content"
+    	    android:minWidth="40dip"
+    	    android:text="+"/>
+    	    
+    	    <Button android:id="@+id/btRestar"
+    	    android:layout_width="wrap_content"    
+    	    android:layout_height="wrap_content"
+    	    android:minWidth="40dip"
+    	    android:text="-"/>
+    	    
+    	    <Button android:id="@+id/btMultiplicar"
+    	    android:layout_width="wrap_content"    
+    	    android:layout_height="wrap_content"
+    	    android:minWidth="40dip"
+    	    android:text="*"/>
+    	    
+    	    <Button android:id="@+id/btDividir"
+    	    android:layout_width="wrap_content"    
+    	    android:layout_height="wrap_content"
+    	    android:minWidth="40dip"
+    	    android:text="/"/>
+    	    
+    	    <Button android:id="@+id/btReset"
+    	    android:layout_width="wrap_content"    
+    	    android:layout_height="wrap_content"
+    	    android:minWidth="40dip"
+    	    android:text="C"/>
+    	</LinearLayout>
+    </TableRow>
+
+</TableLayout>

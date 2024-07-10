@@ -1,0 +1,20 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.prfragmentsinterface.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <!-- La practica habitual es usar un FrameLayout vacio que actua como -->
+    <!-- un contenedor de fragmentos (en lugar de definirlos estaticamente) -->
+    <!-- y luego la activity modifica fragmentos dinamicamente mediante transacciones. -->
+    <!-- Asi se evita que al reemplazar fragments, el antiguo quede por debajo -->
+    <!-- todavia visible (ejemplo comentado abajo). -->
+    <!-- <fragment -->
+    <!-- android:id="@+id/fragment_container" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="match_parent" -->
+    <!-- class="com.android.prfragmentsinterface.fragments.ListaFragment" /> -->
+
+</FrameLayout>

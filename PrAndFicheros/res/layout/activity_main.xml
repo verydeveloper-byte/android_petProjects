@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.android.prandficheros.MainActivity"
+    tools:ignore="MergeRootFrame" >
+
+    <Button
+        android:id="@+id/btLeer_raw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/btLeer_raw" />
+
+    <Button
+        android:id="@+id/btEscribir_fichero_minterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btLeer_raw"
+        android:layout_below="@+id/btLeer_raw"
+        android:layout_marginTop="20dp"
+        android:text="@string/btEscribir_fichero_minterna" />
+
+    <Button
+        android:id="@+id/btLeer_fichero_minterna"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btEscribir_fichero_minterna"
+        android:layout_below="@+id/btEscribir_fichero_minterna"
+        android:layout_marginTop="20dp"
+        android:text="@string/btLeer_fichero_minterna" />
+
+    <Button
+        android:id="@+id/btEscribir_fichero_sdcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btLeer_fichero_minterna"
+        android:layout_below="@+id/btLeer_fichero_minterna"
+        android:layout_marginTop="20dp"
+        android:text="@string/btEscribir_fichero_sdcard" />
+
+    <Button
+        android:id="@+id/btLeer_fichero_sdcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/btEscribir_fichero_sdcard"
+        android:layout_below="@+id/btEscribir_fichero_sdcard"
+        android:layout_marginTop="20dp"
+        android:text="@string/btLeer_fichero_sdcard" />
+
+    <TextView
+        android:id="@+id/tvMostrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btLeer_fichero_sdcard"
+        android:layout_marginTop="30dp"
+        android:text="" />
+
+</RelativeLayout>

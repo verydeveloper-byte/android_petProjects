@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<TextView android:id="@+id/lbPosicion"
+	 	 android:layout_width="fill_parent"
+	 	 android:layout_height="wrap_content"
+	 	 android:layout_margin="5dp"
+	 	 android:text="Posicion Actual:"/>
+	
+	<TextView android:id="@+id/lbPosLatitud"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="#aaaaaa"
+	    android:textColor="#000000"/>
+	
+	<TextView android:id="@+id/lbPosLongitud"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="#aaaaaa"
+	    android:textColor="#000000"/>
+	
+	<TextView android:id="@+id/lbPosPrecision"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="#aaaaaa"
+	    android:textColor="#000000"/>
+	
+	<Button android:id="@+id/btActivar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Activar"/>
+	
+	<Button android:id="@+id/btDesactivar"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:text="Desactivar"/>
+	
+	<TextView android:id="@+id/lbEstado"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="5dp"
+	    android:background="#aaaaaa"
+	    android:textColor="#000000" />
+	
+	
+</LinearLayout>

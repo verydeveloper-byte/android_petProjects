@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">prDialogos</string>
+    <string name="action_settings">Settings</string>
+    <string name="clean_list">Limpiar Lista</string>
+    <string name="reload_list">Recargar Lista</string>
+    <string name="context_delete_item">Eliminar</string>
+    <string name="context_edit_item">Editar</string>
+    <string name="tvProvincia">Provincia:</string>
+    <string name="ivProvinciaDescripcion">Foto de la provincia</string>
+    <string name="btAceptar">Aceptar</string>
+    <string name="btCancelar">Cancelar</string>
+    <string name="editar_provincia_activity">Edicion Provincia</string>
+
+</resources>

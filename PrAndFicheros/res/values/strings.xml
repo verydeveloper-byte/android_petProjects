@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PrAndFicheros</string>
+    <string name="action_settings">Settings</string>
+    <string name="btLeer_raw">Leer Fichero Raw</string>
+    <string name="btEscribir_fichero_minterna">Escribir un Fichero a Memoria Interna</string>
+    <string name="btLeer_fichero_minterna">Leer un Fichero de Memoria Interna</string>
+    <string name="btEscribir_fichero_sdcard">Escribir Fichero a SDcard</string>
+    <string name="btLeer_fichero_sdcard">Leer Fichero de SDcard</string>
+
+</resources>

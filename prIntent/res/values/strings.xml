@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">prIntent</string>
+    <string name="titulo">Menu Principal</string>
+    <string name="tituloDatePicker">Seleccion Fecha</string>
+    <string name="tituloLoginForm">Login</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="select_option">
+        <item>- Opcion 1</item>
+        <item>- Opcion 2</item>
+    </string-array>
+
+    <string name="backToMenu">Atras</string>
+    <string name="Login">Usuario:</string>
+    <string name="Aceptar">Aceptar</string>
+
+</resources>

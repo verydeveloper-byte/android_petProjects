@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">proyectoGaleriaImagen</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="mensaje1">Hacer click para añadir foto</string>
+    <string name="mensaje2">Presionar en la foto para mostrar</string>
+    <string name="textoimagen">Mi Imagen</string>
+
+</resources>

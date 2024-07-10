@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="provincia">
+        <item>Malaga</item>
+        <item>Granada</item>
+        <item>Cordoba</item>
+    </string-array>
+    <string-array name="codigoprovincia">
+        <item>MAL</item>
+        <item>GRA</item>
+        <item>COR</item>
+    </string-array>
+
+</resources>

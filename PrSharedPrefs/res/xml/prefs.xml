@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="cat1"
+        android:title="Categoria Ejemplo" >
+        <CheckBoxPreference
+            android:key="opcion1"
+            android:summary="Descripcion Preferencia 1"
+            android:summaryOff="Desactivado"
+            android:summaryOn="Activado"
+            android:title="Preferencia 1" />
+
+        <EditTextPreference
+            android:dialogTitle="Introduce valor"
+            android:key="opcion2"
+            android:negativeButtonText="Cancelar"
+            android:positiveButtonText="Aceptar"
+            android:summary="Descripcion Preferencia 2"
+            android:title="Preferencia 2" />
+
+        <ListPreference
+            android:dialogTitle="Introduce Pais"
+            android:entries="@array/pais"
+            android:entryValues="@array/codigopais"
+            android:key="opcion3"
+            android:summary="Introduce Pais"
+            android:title="Preferencia 3" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="cat2"
+        android:title="Categoria 2" >
+        <MultiSelectListPreference
+            android:dialogTitle="Introduce Provincia"
+            android:entries="@array/provincia"
+            android:entryValues="@array/codigoprovincia"
+            android:key="opcion4"
+            android:summary="Introduce Provincia"
+            android:title="Preferencia 4" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
